@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.codewithazam.runners.SignalRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.587 s <<< FAILURE! - in com.codewithazam.runners.SignalRunner
+Signal Telecom Sign In.Empty Email Sign In  Time elapsed: 4.688 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at com.codewithazam.steps.SignalTelecomSteps.user_validates_the_error_message(SignalTelecomSteps.java:50)
+	at ✽.User validates the error message(file:///Users/codewithazam/Desktop/Azam/CucumberFramework/src/test/resources/features/SignalTelecomSignIn.feature:18)
+
