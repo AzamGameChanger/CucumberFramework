@@ -8,12 +8,12 @@ import io.cucumber.java.Scenario;
 
 public class Hooks {
 
-    @Before
+    //@Before
     public void openBrowser() {
         Base.setUp();
     }
 
-    @After
+    //@After
     public void closeBrowser(Scenario scenario) {
         byte[] picture;
 
