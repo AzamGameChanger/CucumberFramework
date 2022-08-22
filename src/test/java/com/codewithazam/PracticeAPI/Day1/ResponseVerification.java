@@ -1,4 +1,4 @@
-package com.codewithazam.PracticeAPI;
+package com.codewithazam.PracticeAPI.Day1;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
